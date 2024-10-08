@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #D5E1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qrcode-box{
+    height: 499px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+.qrcode-box>img{
+    height: 288px;
+    width: 288px;
+    margin-top: 16px;
+    border-radius: 10px;
+}
+.text{
+    margin: 24px 16px 40px;
+    align-items: center;
+    text-align: center;
+}
+.text>h1{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 120%;
+    margin: 0px 16px 0px 16px;
+}
+.text>p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    margin: 16px 16px 0px 16px;
+}
